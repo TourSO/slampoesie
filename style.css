@@ -1,0 +1,73 @@
+a[href] {
+    color: blue;
+    display: inline-block;
+    margin-right: 40px;
+    position: relative;
+    font-size: 40px;
+}
+a:visited {
+    color: blueviolet;
+}
+.IMP {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Times New Roman';
+    padding-bottom: 20px;
+    text-align: center;
+}
+main {
+    background-color: blanchedalmond;
+    padding: 25px;
+    font-family: 'Times New Roman';
+    font-size: 1rem;
+}
+footer {
+    background-color: blanchedalmond;
+    padding: 25px;
+    font-family: 'Times New Roman';
+    font-size: 1rem;
+}
+header {
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: center;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+aside {
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 2rem;
+        font-family: 'Times New Roman';
+    }
+    .IMP {
+        font-size: 1.5rem;
+    }
+    main, footer, .topvar {
+        font-size: 0.9rem;
+    }
+    .topvar {
+        margin-right: 20px; /* Réduire l'espacement pour petits écrans */
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        font-size: 1rem;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        font-size: 1rem;
+    }
+}
+.topbar {
+    position: relative;
+    font-size: 1rem; /* Ajuster la taille de la police pour être cohérente avec les autres liens */
+    margin-right: 20px; /* Ajouter un espacement similaire aux autres liens */
+}
